@@ -6,7 +6,7 @@ require 'nokogiri'
 require 'open-uri'
 
 #URL for the forum
-flyertalk_url = 'http://www.flyertalk.com/forum/mileage-run-deals-372/'
+flyertalk_url = 'https://www.flyertalk.com/forum/mileage-run-deals-372/'
 
 #Array of airline two letter codes to match against
 airlines = ["DL" , "AS" , "KL" , "AF"]
