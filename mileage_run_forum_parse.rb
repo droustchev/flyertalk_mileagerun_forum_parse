@@ -12,7 +12,7 @@ flyertalk_url = 'http://www.flyertalk.com/forum/mileage-run-deals-372/'
 airlines = ["DL" , "AS" , "KL" , "AF"]
 
 #Array of airport codes to match against
-airports = ["BWI" , "DCA" , "IAD" , "JFK" , "BOS" , "SEA" , "SFO" , "SJC" , "OAK"]
+airports = ["BWI" , "DCA" , "IAD" , "JFK" , "BOS" , "SEA" , "SFO" , "SJC" , "OAK", "YYZ"]
 
 #Grab the page
 page = Nokogiri::HTML(open(flyertalk_url))
