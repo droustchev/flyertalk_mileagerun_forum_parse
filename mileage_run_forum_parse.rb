@@ -18,7 +18,7 @@ airports = ["BWI" , "DCA" , "IAD" , "JFK" , "BOS" , "SEA" , "SFO" , "SJC" , "OAK
 page = Nokogiri::HTML(open(flyertalk_url))
 
 #Grab the links from the forum
-links = page.css('table tbody tr a')
+links = page.css('div#threadbits_forum_372 a')
 
 #Clean out the non-thread title data and convert to thread array
 threads = links.map { |link| link.text.strip }
